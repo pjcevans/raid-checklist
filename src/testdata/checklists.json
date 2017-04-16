@@ -1,0 +1,64 @@
+{
+  "instances": {
+    "aq40": {"url":"http://imgur.com/VoqlT6O.jpg"},
+    "tryhard": {"url":"http://imgur.com/QVug5l4.jpg"},
+    "naxx": {"url":"http://imgur.com/t3EUVX7.jpg"}
+  },
+  "classes": [
+      {
+        "name": "Mage",
+        "type": "mage",
+        "pala": "http://imgur.com/HVpRXsm",
+        "hunter": "http://imgur.com/JkTX0N2",
+        "priest": "http://imgur.com/2JOzFT4",
+        "druid": "http://imgur.com/58KYQi9",
+        "rogue": "http://imgur.com/46Q3ui9",
+        "icon": "http://imgur.com/vLUnty4.jpg",
+        "aq40": [
+          "standard1",
+          "standard2",
+          "aq40this",
+          "aq40that",
+          "aq40the other"
+        ],
+        "naxx": [
+          "standard1",
+          "standard2",
+          "naxxthis",
+          "naxxthat"
+        ],
+        "tryhard": [
+          "boar's vitality",
+          "pre-pop songflower"
+        ]
+      },
+      {
+        "name": "Druid",
+        "type": "druid",
+        "pala": "http://imgur.com/HVpRXsm",
+        "hunter": "http://imgur.com/JkTX0N2",
+        "priest": "http://imgur.com/2JOzFT4",
+        "druid": "http://imgur.com/58KYQi9",
+        "rogue": "http://imgur.com/46Q3ui9",
+        "icon": "http://imgur.com/58KYQi9.jpg",
+        "aq40": [
+          "dudustandard1",
+          "drudrustandard2",
+          "aq40this",
+          "aq40that",
+          "aq40the other"
+        ],
+        "naxx": [
+          "dudustandard1",
+          "drudrustandard2",
+          "naxxthis",
+          "naxxthat"
+        ],
+        "tryhard": [
+          "boar's vitality",
+          "pre-pop songflower"
+        ]
+      }
+
+  ]
+}

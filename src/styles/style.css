@@ -1,0 +1,82 @@
+html, body {
+  font-family: "Architects Daughter", sans-serif;
+  text-align: center;
+  min-width: 100%;
+  margin: 0;
+}
+
+#page {
+  display: flex column;
+}
+
+.app {
+  position: relative;
+  display: flex;
+}
+
+/*Title icon*/
+#title-icon {
+  border: thin dotted black;
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 2.5vw;
+  padding: 2%;
+  margin: 1%;
+  font-family: Arial italic;
+}
+
+.metacontentblock {
+  display: flex;
+  justify-content: center;
+}
+
+.classselector {
+  display: flex;
+  justify-content: center;
+}
+
+.classbutton {
+  opacity: 0.3;
+  margin: 10px;
+  padding: 3px;
+  background: #f7f9fc;
+  border-radius: 5px;
+
+}
+
+.classbuttonimage {
+  border-radius: 100%;
+}
+
+.classbutton > p {
+  margin-bottom: 2px;
+  margin-top: 6px;
+}
+
+.classbutton:hover {
+  opacity: 0.6;
+}
+
+.selected {
+  opacity: 1;
+  border-right: thin solid gray;
+  border-bottom: thin solid gray;
+
+}
+
+.classbuttonimage {
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+
+}
+
+.conitem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conitem > p {
+  margin: 4 px;
+}
