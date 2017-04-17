@@ -29,7 +29,8 @@ html, body {
 
 .metacontentblock {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .classselector {
@@ -88,7 +89,10 @@ html, body {
 .checklist-display > div {
   margin-left: 4%;
   margin-right: 4%;
-  min-width: 23%;
+}
+
+.checklist-text {
+  margin-left: 2px;
 }
 
 input[type=checkbox]

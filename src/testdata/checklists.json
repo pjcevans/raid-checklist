@@ -2,7 +2,8 @@
   "instances": {
     "aq40": {"url":"http://imgur.com/VoqlT6O.jpg"},
     "tryhard": {"url":"http://imgur.com/QVug5l4.jpg"},
-    "naxx": {"url":"http://imgur.com/t3EUVX7.jpg"}
+    "naxx": {"url":"http://imgur.com/t3EUVX7.jpg"},
+    "kt & saph": {"url":"https://s3.amazonaws.com/naeu-icb2/icons/0/100/100590/1.cai"}
   },
   "classes": [
       {
@@ -15,6 +16,11 @@
         "rogue": "http://imgur.com/46Q3ui9",
         "icon": "http://imgur.com/vLUnty4.jpg",
         "aq40": [
+          {"name":"Qiraji Mount","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_qirajicrystal_02.jpg"},
+          {"name":"Nature Resistance Gear","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_gem_pearl_06.jpg"},
+          {"name":"10 x Rune of Teleportation","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_rune_06.jpg"},
+          {"name":"10 x Rune of Portals","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_rune_08.jpg"},
+          {"name":"40 x Arcane Powder","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_dust_01.jpg"},
           {"name":"2 x Flask of Supreme Power","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_41.jpg"},
           {"name":"2 x Brilliant Wizard Oil","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_105.jpg"},
           {"name":"10 x Greater Nature Protection Potion","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_22.jpg"},
@@ -24,9 +30,14 @@
           {"name":"10 x Mageblood Potion","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_45.jpg"},
           {"name":"10 x Elixir of Fortitude","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_43.jpg"},
           {"name":"15 x Major Healing Potion","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_54.jpg"},
-          {"name":"40 x Heavy Runecloth Bandage","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_bandage_12.jpg"}
+          {"name":"40 x Heavy Runecloth Bandage","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_bandage_12.jpg"},
+          {"name":"Log out by instance portal","url":"http://warriornation.net/diablo2/images/portal.gif"}
         ],
         "naxx": [
+          {"name":"10 x Rune of Teleportation","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_rune_06.jpg"},
+          {"name":"10 x Rune of Portals","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_rune_08.jpg"},
+          {"name":"Damage vs undead trinket","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_rune_06.jpg"},
+          {"name":"40 x Arcane Powder","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_dust_01.jpg"},
           {"name":"2 x Flask of Supreme Power","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_41.jpg"},
           {"name":"2 x Brilliant Wizard Oil","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_105.jpg"},
           {"name":"10 x Elixir of Greater Firepower","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_60.jpg"},
@@ -37,9 +48,16 @@
           {"name":"5 x Elixir of Poison Resistance","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_12.jpg"},
           {"name":"15 x Major Healing Potion","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_54.jpg"},
           {"name":"40 x Heavy Runecloth Bandage","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_bandage_12.jpg"},
-          {"name":"15 x Greater Shadow Protection Potion","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_23.jpg"}
+          {"name":"15 x Greater Shadow Protection Potion","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_23.jpg"},
+          {"name":"Log out by instance portal","url":"http://warriornation.net/diablo2/images/portal.gif"}
         ],
         "kt & saph": [
+          {"name":"Frost Resistance Gear","url":"http://db.vanillagaming.org/images/icons/large/inv_helmet_53.jpg"},
+          {"name":"10 x Rune of Teleportation","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_rune_06.jpg"},
+          {"name":"10 x Rune of Portals","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_rune_08.jpg"},
+          {"name":"Damage vs undead trinket","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_rune_06.jpg"},
+          {"name":"10 x Juju Chill","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_monsterscales_09.jpg"},
+          {"name":"40 x Arcane Powder","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_dust_01.jpg"},
           {"name":"2 x Flask of Supreme Power","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_41.jpg"},
           {"name":"2 x Brilliant Wizard Oil","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_105.jpg"},
           {"name":"10 x Greater Nature Protection Potion","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_22.jpg"},
@@ -51,9 +69,17 @@
           {"name":"5 x Elixir of Poison Resistance","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_12.jpg"},
           {"name":"15 x Major Healing Potion","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_54.jpg"},
           {"name":"40 x Heavy Runecloth Bandage","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_bandage_12.jpg"},
-          {"name":"30 x Greater Frost Protection Potion","url":"http://imgur.com/t3EUVX7.jpg"}
+          {"name":"30 x Greater Frost Protection Potion","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_20.jpg"},
+          {"name":"Log out by instance portal","url":"http://warriornation.net/diablo2/images/portal.gif"}
         ],
         "tryhard": [
+          {"name":"20 x Dark Rune","url":"http://db.vanillagaming.org/images/icons/large/spell_shadow_sealofkings.jpg"},
+          {"name":"1 x Swiftness of Zanza","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_31.jpg"},
+          {"name":"1 x Spirit of Zanza","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_30.jpg"},
+          {"name":"10 x Rune of Teleportation","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_rune_06.jpg"},
+          {"name":"10 x Rune of Portals","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_rune_08.jpg"},
+          {"name":"10 x Major Troll's Blood Potion","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_80"},
+          {"name":"40 x Arcane Powder","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_dust_01"},
           {"name":"2 x Flask of Supreme Power","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_41.jpg"},
           {"name":"2 x Brilliant Wizard Oil","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_105.jpg"},
           {"name":"10 x Greater Nature Protection Potion","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_22.jpg"},
@@ -64,10 +90,13 @@
           {"name":"10 x Elixir of Fortitude","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_43.jpg"},
           {"name":"5 x Elixir of Poison Resistance","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_12.jpg"},
           {"name":"15 x Major Healing Potion","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_54.jpg"},
+          {"name":"1 x A Boar's Vitality","url":"http://db.vanillagaming.org/images/icons/large/inv_drink_12.jpg"},
           {"name":"40 x Heavy Runecloth Bandage","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_bandage_12.jpg"},
-          {"name":"boar's vitality","url":"http://imgur.com/t3EUVX7.jpg"},
-          {"name":"pre-pop songflower","url":"http://imgur.com/t3EUVX7.jpg"},
-          {"name":"20 x Dirge's Kickin' Chimaerok Chops","url":"http://imgur.com/t3EUVX7.jpg"}
+          {"name":"1 x Cerebral Cortex Compound","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_32.jpg"},
+          {"name":"pre-pop songflower","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_flower_01.jpg"},
+          {"name":"20 x Whipper Root Tuber","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_food_55.jpg"},
+          {"name":"20 x Dirge's Kickin' Chimaerok Chops","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_food_65.jpg"},
+          {"name":"Log out by instance portal","url":"http://warriornation.net/diablo2/images/portal.gif"}
         ]
       },
       {
