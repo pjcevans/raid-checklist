@@ -82,6 +82,7 @@
         ],
         "tryhard": [
           {"name":"20 x Sagefish Delight","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_fish_21.jpg"},
+          {"name":"20 x Nightfin Soup","url":"http://db.vanillagaming.org/images/icons/large/inv_drink_17.jpg"},
           {"name":"20 x Dark Rune","url":"http://db.vanillagaming.org/images/icons/large/spell_shadow_sealofkings.jpg"},
           {"name":"1 x Swiftness of Zanza","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_31.jpg"},
           {"name":"1 x Spirit of Zanza","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_30.jpg"},
@@ -177,6 +178,7 @@
         "tryhard": [
           {"name":"20 x Sagefish Delight","url":"http://db.vanillagaming.org/images/icons/large/inv_misc_fish_21.jpg"},
           {"name":"20 x Dark Rune","url":"http://db.vanillagaming.org/images/icons/large/spell_shadow_sealofkings.jpg"},
+          {"name":"20 x Nightfin Soup","url":"http://db.vanillagaming.org/images/icons/large/inv_drink_17.jpg"},
           {"name":"1 x Swiftness of Zanza","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_31.jpg"},
           {"name":"1 x Spirit of Zanza","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_30.jpg"},
           {"name":"5 x Greater Fire Protection Potion","url":"http://db.vanillagaming.org/images/icons/large/inv_potion_24.jpg"},
