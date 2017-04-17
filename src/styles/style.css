@@ -7,6 +7,8 @@ html, body {
 
 #page {
   display: flex column;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .app {
@@ -53,10 +55,6 @@ html, body {
   margin-top: 6px;
 }
 
-.classbutton:hover {
-  opacity: 0.6;
-}
-
 .selected {
   opacity: 1;
   border-right: thin solid gray;
@@ -79,4 +77,27 @@ html, body {
 
 .conitem > p {
   margin: 4 px;
+}
+
+.checklist-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.checklist-display > div {
+  margin-left: 4%;
+  margin-right: 4%;
+  min-width: 23%;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+  margin-left: 12px;
 }

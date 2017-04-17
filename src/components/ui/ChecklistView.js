@@ -1,8 +1,5 @@
 import { Component } from 'react'
-
-
-
-
+import ChecklistItem from './ChecklistItem'
 
 
 
@@ -22,14 +19,15 @@ class ChecklistView extends Component {
         this.props.selectedInstances.forEach((instance) => {
           role[instance].forEach((con) => {
             checklist.push(
-              <div className="conitem" key={con}><p >{con}hi</p><input type="checkbox"></input></div>
+              <ChecklistItem con={con}
+                             key={con.name}/>
             )
           })
         })
       }
     })
   	return (
-  	    <div>
+  	    <div className="checklist-display">
           {checklist}
   	    </div>
     )
