@@ -35,7 +35,8 @@ html, body {
 
 .classselector {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 500px;
 }
 
 .classbutton {
@@ -44,11 +45,12 @@ html, body {
   padding: 3px;
   background: #f7f9fc;
   border-radius: 5px;
-
+  max-height: 75px;
 }
 
 .classbuttonimage {
   border-radius: 100%;
+  margin: 0 auto;
 }
 
 .classbutton > p {
