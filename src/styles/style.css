@@ -126,10 +126,14 @@ input[type=checkbox]
       order: 1;
       flex-wrap: wrap;
       min-width: 10%;
+      border: thin solid black;
+      justify-content: center;
     }
     .instanceselector {
       order: 3;
       flex-shrink: 1;
+      border: thin solid black;
+      justify-content: center;
     }
     .checklist-display {
       order: 2;
