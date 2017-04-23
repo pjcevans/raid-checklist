@@ -1,5 +1,6 @@
+
 html, body {
-  font-family: "Architects Daughter", sans-serif;
+  font-family: Arial italic;
   text-align: center;
   min-width: 100%;
   margin: 0;
@@ -18,13 +19,14 @@ html, body {
 
 /*Title icon*/
 #title-icon {
-  border: thin dotted black;
-  border-radius: 100%;
+  /*border: thin dotted black;
+  border-radius: 100%;*/
   display: inline-block;
   font-size: 2.5vw;
-  padding: 2%;
-  margin: 1%;
-  font-family: Arial italic;
+  margin: 2px;
+  /*padding: 2%;
+  margin: 1%;*/
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 .metacontentblock {
@@ -33,7 +35,7 @@ html, body {
   flex-wrap: wrap;
 }
 
-.classselector {
+.classselector, .instanceselector {
   display: flex;
   flex-wrap: wrap;
   max-width: 500px;
@@ -106,4 +108,32 @@ input[type=checkbox]
   -o-transform: scale(2); /* Opera */
   padding: 10px;
   margin-left: 12px;
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #page {
+      width: 90%;
+    }
+    .metacontentblock {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+    }
+    .classselector {
+      order: 1;
+      flex-wrap: wrap;
+      min-width: 10%;
+    }
+    .instanceselector {
+      order: 3;
+      flex-shrink: 1;
+    }
+    .checklist-display {
+      order: 2;
+      flex-grow: 6;
+      max-width: 90%;
+    }
 }

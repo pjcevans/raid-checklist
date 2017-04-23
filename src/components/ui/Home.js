@@ -57,22 +57,26 @@ class Home extends Component {
 	return (
 	    <div id="page">
 	    	<div id="title-icon">
-	    	  Consumables Checklist
+	    	  Vanilla WoW Pre-Flight Checklist
 	    	</div>
 
         <div className="metacontentblock">
-          <ClassSelector data={this.state.data}
+          <ClassSelector className="class-selector-component"
+                         data={this.state.data}
                          selectedClass={this.state.selectedClass}
                          changeClass={this.changeClass.bind(this)} />
           <InstanceSelector selectedInstances={this.state.selectedInstances}
                             data={this.state.data}
+                            className="instance-selector-component"
                             updateInstances={this.updateInstances.bind(this)} />
+          <ChecklistView data={this.state.data}
+                         selectedClass={this.state.selectedClass}
+                         className="checklist-view-component"
+                         selectedInstances={this.state.selectedInstances} />
         </div>
 
 
-        <ChecklistView data={this.state.data}
-                       selectedClass={this.state.selectedClass}
-                       selectedInstances={this.state.selectedInstances} />
+
 
 	    </div>
     )

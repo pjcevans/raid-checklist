@@ -32,7 +32,7 @@ class InstanceSelector extends Component {
 
     };
   	return (
-      <div className="classselector">
+      <div className="instanceselector">
         {instanceButtons}
       </div>
     )
