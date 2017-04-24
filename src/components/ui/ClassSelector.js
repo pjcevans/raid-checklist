@@ -3,7 +3,6 @@ import ClassButton from './ClassButton'
 
 const ClassSelector = (props) =>
   <div className="classselector">
-    Class
     {
       props.data.classes.map((item, id) =>
         <ClassButton key={id}

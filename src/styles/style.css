@@ -4,11 +4,12 @@ html, body {
   text-align: center;
   min-width: 100%;
   margin: 0;
+  color: #505359;
 }
 
 #page {
   display: flex column;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -114,9 +115,6 @@ input[type=checkbox]
 @media screen
   and (min-device-width: 1200px)
   and (-webkit-min-device-pixel-ratio: 1) {
-    #page {
-      width: 90%;
-    }
     .metacontentblock {
       flex-direction: row;
       flex-wrap: nowrap;
@@ -125,14 +123,15 @@ input[type=checkbox]
     .classselector {
       order: 1;
       flex-wrap: wrap;
-      min-width: 10%;
-      border: thin solid black;
+      min-width: 12%;
       justify-content: center;
+    }
+    .selected {
+      box-shadow: 10px 5px 5px #505359;
     }
     .instanceselector {
       order: 3;
       flex-shrink: 1;
-      border: thin solid black;
       justify-content: center;
     }
     .checklist-display {

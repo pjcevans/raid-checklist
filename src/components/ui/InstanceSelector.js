@@ -33,7 +33,6 @@ class InstanceSelector extends Component {
     };
   	return (
       <div className="instanceselector">
-        Objective
         {instanceButtons}
       </div>
     )
