@@ -1,9 +1,9 @@
-import myData from '../../testdata/checklists.json';
-import { Component } from 'react'
-import ReactDOM from 'react-dom'
-import ClassSelector from './ClassSelector'
-import ChecklistView from './ChecklistView'
-import InstanceSelector from './InstanceSelector'
+import myData from "../../testdata/checklists.json";
+import { Component } from "react";
+import ReactDOM from "react-dom";
+import ClassSelector from "./ClassSelector";
+import ChecklistView from "./ChecklistView";
+import InstanceSelector from "./InstanceSelector";
 
 
 
@@ -11,12 +11,12 @@ import InstanceSelector from './InstanceSelector'
 class Home extends Component {
 
   constructor(props) {
-      super(props)
-      this.state = {
-        data: myData,
-        selectedClass: "mage",
-        selectedInstances: ["naxx"],
-      }
+    super(props);
+    this.state = {
+      data: myData,
+      selectedClass: "mage",
+      selectedInstances: ["naxx"],
+    };
   }
 
   changeClass(newClass) {
@@ -26,7 +26,6 @@ class Home extends Component {
   }
 
   updateInstances(instance) {
-    console.log("function receiving instance: " + instance)
     if (instance === "all") {
       this.setState({
         selectedInstances: ["naxx", "aq40", "tryhard"],
@@ -38,8 +37,8 @@ class Home extends Component {
           selectedInstances: newInstances,
         });
       } else {
-        let newInstances = this.state.selectedInstances
-        newInstances.splice(newInstances.indexOf(instance), 1)
+        let newInstances = this.state.selectedInstances;
+        newInstances.splice(newInstances.indexOf(instance), 1);
         this.setState({
           selectedInstances: newInstances,
         });
@@ -54,11 +53,11 @@ class Home extends Component {
   }
 
   render() {
-	return (
-	    <div id="page">
-	    	<div id="title-icon">
-	    	  Vanilla WoW Pre-Flight Checklist
-	    	</div>
+    return (
+      <div id="page">
+        <div id="title-icon">
+          Vanilla WoW Pre-Flight Checklist
+        </div>
 
         <div className="metacontentblock">
           <ClassSelector className="class-selector-component"
@@ -78,9 +77,9 @@ class Home extends Component {
 
 
 
-	    </div>
-    )
+      </div>
+    );
   }
 }
 
-export default Home
+export default Home;

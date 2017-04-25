@@ -1,4 +1,4 @@
-import ClassButton from './ClassButton'
+import ClassButton from "./ClassButton";
 
 
 const ClassSelector = (props) =>
@@ -13,4 +13,4 @@ const ClassSelector = (props) =>
     }
   </div>
 
-export default ClassSelector
+export default ClassSelector;

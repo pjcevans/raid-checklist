@@ -1,12 +1,12 @@
-import { Component } from 'react'
-import ChecklistItem from './ChecklistItem'
+import { Component } from "react";
+import ChecklistItem from "./ChecklistItem";
 
 
 
 class ChecklistView extends Component {
 
   constructor(props) {
-      super(props)
+    super(props);
   }
 
 
@@ -21,17 +21,17 @@ class ChecklistView extends Component {
             checklist.push(
               <ChecklistItem con={con}
                              key={con.name}/>
-            )
-          })
-        })
+            );
+          });
+        });
       }
-    })
-  	return (
-  	    <div className="checklist-display">
-          {checklist}
-  	    </div>
-    )
+    });
+    return (
+      <div className="checklist-display">
+        {checklist}
+      </div>
+    );
   }
 }
 
-export default ChecklistView
+export default ChecklistView;

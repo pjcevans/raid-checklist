@@ -1,32 +1,18 @@
-React Testing
-=====================
-Testing various things:
-- React Router
-- Props, State, all the react fun
-- JSON API mocking
+### Vanilla WoW Pre-Flight Checklist
+Simple app that provides a checklist for various instances / setups for use on private servers running vanilla woW patch 1.12.1
 
-To run locally with hot reloading + auto page reload:
-- requires npm / webpack-dev-server
-- npm install
-- npm run dev
+### Built with React
+Displaying data from a simple JSON file.
 
-to test locally with heroku:
-- requires heroku toolbelt / npm / webpack
-- npm install
-- heroku local web
+To run locally:
+- clone
+- run `npm install`
+- run `npm run dev`
 
-To deploy, eg to heroku:
-- npm run build
-- commit
-- push to heroku
+To build a bundle to serve:
+- run `npm run build`
 
-Areas under development:
-=====================
-- Search / filter tool for filtering JSON data - https://vegan-things.herokuapp.com/#/search
-- JSON schema / actual data for recipes
-- Input page for prettily adding new records - https://vegan-things.herokuapp.com/#/input
-- Pagination on demand for individual recipes - eg https://vegan-things.herokuapp.com/#/recipes/3
+### Never forget a consumable again!
+Check lists are proven to reduce human error and running through a fixed check list before a raid takes less time than checking raid consumables on the fly.
 
-Development Notes:
-=====================
-- As in this thread, using both hot module replacement and -hot switch of webpack dev server causes recursive updates & stack overflow. Opted to use the plugin over the -hot switch http://stackoverflow.com/questions/32716885/maximum-call-stack-exceeded-error-in-reactjs-can-someone-help-explain-whats-go
+Any suggestions, bugs, missing consumables etc please do get in touch or make an issue in the repo

@@ -7,4 +7,4 @@ const ChecklistItem = (props) =>
     <input type="checkbox"></input>
   </div>
 
-export default ChecklistItem
+export default ChecklistItem;

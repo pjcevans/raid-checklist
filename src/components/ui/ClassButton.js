@@ -16,4 +16,4 @@ const ClassButton = (props) =>
     }
   </div>
 
-export default ClassButton
+export default ClassButton;
