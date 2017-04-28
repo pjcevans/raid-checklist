@@ -6,7 +6,8 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
     "start": "node app.js",
-    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack.dev.config.js --inline"
+    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack.dev.config.js --inline",
+    "gh-build": "npm run build&&gh-pages -d public"
   },
   "author": "pjcevans",
   "license": "MIT",

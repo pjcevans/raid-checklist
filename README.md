@@ -4,13 +4,18 @@ Simple app that provides a checklist for various instances / setups for use on p
 ### Built with React
 Displaying data from a simple JSON file.
 
-To run locally:
+Working locally:
 - clone
 - run `npm install`
+
+To run locally:
 - run `npm run dev`
 
 To build a bundle to serve:
 - run `npm run build`
+
+To bundle and deploy to GitHub Pages:
+- run `npm run gh-build`
 
 ### Never forget a consumable again!
 Check lists are proven to reduce human error and running through a fixed check list before a raid takes less time than checking raid consumables on the fly.
