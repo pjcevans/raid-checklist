@@ -1,3 +1,5 @@
+import React from 'react';
+
 const InstanceButton = (props) =>
   <div onClick={() => props.updateInstances(props.instance)}
        className={`${props.buttonClass} classbutton`}>
